@@ -1,0 +1,77 @@
+
+body{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  background-image: linear-gradient(rgb(159, 163, 217),rgb(208, 118, 118),rgb(243, 235, 235));
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container1{
+  border: 2px solid black;
+  background-color: rgb(171, 227, 228);
+  border-radius: 25px;
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  top: 40%;
+  right:30px;
+}
+.head{
+  text-align: center;
+  text-shadow: 2px 4px 4px rgb(83, 227, 240);
+}
+
+.head1{
+text-align: center;
+}
+
+.para1{
+text-align: center;
+}
+
+.container2{
+  border: 2px solid black;
+  background-color:rgb(171, 227, 228);
+  border-radius: 25px;
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  top: 40%;
+  left:30px;
+}
+
+.btn1{
+  border: 2px solid black;
+  background-color: rgb(160, 246, 246);
+  border-radius: 22px;
+  height: 50px;
+  width: 320px;
+  position: relative;
+  top:50px;
+  left:50px;
+  font-weight: 600;
+}
+
+.btn2{
+  border: 2px solid black;
+  background-color: rgb(160, 246, 246);
+  border-radius: 22px;
+  height: 50px;
+  width: 320px;
+  position: relative;
+  top:50px;
+  right:50px; 
+  font-weight: 600;
+}
